@@ -7,9 +7,11 @@
   "minimumCoreVersion": "11",
   "compatibleCoreVersion": "11",
   "systems": ["mta"],
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "manifest": "https://github.com/cofd-compendium/cofd-compendium/releases/latest/download/module.json",
+  "url": "https://github.com/cofd-compendium/cofd-compendium",
+  "download": "https://github.com/cofd-compendium/cofd-compendium/releases/latest/download/cofd-compendium.zip",
+  "readme": "https://github.com/cofd-compendium/cofd-compendium/blob/main/readme.md",
+  "changelog": "https://github.com/cofd-compendium/cofd-compendium/releases",
   "author": "CofD",
   "authors": [
     {

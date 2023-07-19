@@ -1,0 +1,8 @@
+2023/07/19-08:42:28.041 bbc Recovering log #8
+2023/07/19-08:42:28.280 bbc Delete type=0 #8
+2023/07/19-08:42:28.280 bbc Delete type=3 #6
+2023/07/19-08:55:06.294 900 Level-0 table #13: started
+2023/07/19-08:55:06.294 900 Level-0 table #13: 0 bytes OK
+2023/07/19-08:55:06.344 900 Delete type=0 #11
+2023/07/19-08:55:06.403 900 Manual compaction at level-0 from '!items!68EBojGnUmfqxUHt' @ 72057594037927935 : 1 .. '!items!yyw4QlNTTCW7OATY' @ 0 : 0; will stop at (end)
+2023/07/19-08:55:06.403 900 Manual compaction at level-1 from '!items!68EBojGnUmfqxUHt' @ 72057594037927935 : 1 .. '!items!yyw4QlNTTCW7OATY' @ 0 : 0; will stop at (end)

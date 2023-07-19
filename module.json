@@ -1,0 +1,409 @@
+{
+  "id": "cofd-compendium",
+  "name": "cofd-compendium",
+  "title": "CofD Compendium",
+  "description": "A compendium of information for Chronicles of Darkness.",
+  "version": "3.0.0",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "systems": ["mta"],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "author": "CofD",
+  "authors": [
+    {
+      "name": "CofD"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Chronicles of Darkness",
+      "packs": [
+        "basic-rules",
+        "tilts-and-conditions",
+        "character-creation-guides",
+        "st-references",
+        "merits-supernatural",
+        "merits-universal",
+        "combat-armour",
+        "combat-melee-weapons",
+        "combat-ranged-weapons",
+        "merits-homebrew",
+        "storytellers-screen"
+      ],
+      "folders": []
+    },
+    {
+      "name": "Vampire: The Requiem",
+      "packs": [
+        "vampire-disciplines",
+        "merits-vampire",
+        "merits-ghoul",
+        "vampire-powers",
+        "vampire-banes",
+        "mysteries-of-the-dragon"
+      ],
+      "folders": []
+    },
+    {
+      "name": "Werewolf: The Forsaken",
+      "packs": [
+        "merits-werewolf",
+        "werewolf-rites",
+        "werewolf-gifts"
+      ],
+      "folders": []
+    },
+    {
+      "name": "Mage: The Awakening",
+      "packs": [
+        "merits-mage",
+        "spells-death",
+        "spells-fate",
+        "spells-forces",
+        "spells-life",
+        "spells-matter",
+        "spells-mind",
+        "spells-prime",
+        "spells-space",
+        "spells-spirit",
+        "spells-time"
+      ],
+      "folders": []
+    },
+    {
+      "name": "Changeling: The Lost",
+      "packs": [
+        "merits-changeling"
+      ],
+      "folders": []
+    },
+    {
+      "name": "Demon: The Descent",
+      "packs": [
+        "merits-demon"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "label": "Tilts & Conditions",
+      "type": "Item",
+      "name": "tilts-and-conditions",
+      "path": "packs/tilts-and-conditions.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "Basic Rules",
+      "type": "JournalEntry",
+      "name": "basic-rules",
+      "path": "packs/basic-rules.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "Character Creation Guides",
+      "type": "JournalEntry",
+      "name": "character-creation-guides",
+      "path": "packs/character-creation-guides.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "entity": "JournalEntry",
+      "private": false
+    },
+    {
+      "label": "ST References",
+      "type": "JournalEntry",
+      "name": "st-references",
+      "path": "packs/st-references.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "entity": "JournalEntry",
+      "private": true
+    },
+    {
+      "label": "Vampire Disciplines",
+      "type": "Item",
+      "name": "vampire-disciplines",
+      "path": "packs/vampire-disciplines.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "entity": "Item",
+      "private": false
+    },
+    {
+      "label": "Merits, Supernatural",
+      "type": "Item",
+      "name": "merits-supernatural",
+      "path": "packs/merits-supernatural.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Mage",
+      "type": "Item",
+      "name": "merits-mage",
+      "path": "packs/merits-mage.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Homebrew",
+      "type": "Item",
+      "name": "merits-homebrew",
+      "path": "packs/merits-homebrew.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Demon",
+      "type": "Item",
+      "name": "merits-demon",
+      "path": "packs/merits-demon.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Changeling",
+      "type": "Item",
+      "name": "merits-changeling",
+      "path": "packs/merits-changeling.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Vampire",
+      "type": "Item",
+      "name": "merits-vampire",
+      "path": "packs/merits-vampire.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Ghoul",
+      "type": "Item",
+      "name": "merits-ghoul",
+      "path": "packs/merits-ghoul.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Werewolf",
+      "type": "Item",
+      "name": "merits-werewolf",
+      "path": "packs/merits-werewolf.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Merits, Universal",
+      "type": "Item",
+      "name": "merits-universal",
+      "path": "packs/merits-universal.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Storyteller's Screen",
+      "type": "Macro",
+      "name": "storytellers-screen",
+      "path": "packs/storytellers-screen.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "entity": "Macro",
+      "private": true
+    },
+    {
+      "label": "Combat, Armour",
+      "type": "Item",
+      "name": "combat-armour",
+      "path": "packs/combat-armour.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Combat, Melee Weapons",
+      "type": "Item",
+      "name": "combat-melee-weapons",
+      "path": "packs/combat-melee-weapons.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Combat, Ranged Weapons",
+      "type": "Item",
+      "name": "combat-ranged-weapons",
+      "path": "packs/combat-ranged-weapons.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Mysteries of the Dragon",
+      "type": "Item",
+      "name": "mysteries-of-the-dragon",
+      "path": "packs/mysteries-of-the-dragon.db",
+      "system": "mta",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Werewolf Rites",
+      "type": "Item",
+      "name": "werewolf-rites",
+      "path": "packs/werewolf-rites.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Werewolf Gifts",
+      "type": "Item",
+      "name": "werewolf-gifts",
+      "path": "packs/werewolf-gifts.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false,
+      "entity": "Item"
+    },
+    {
+      "label": "Spells, Death",
+      "type": "Item",
+      "name": "spells-death",
+      "path": "packs/spells-death.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Fate",
+      "type": "Item",
+      "name": "spells-fate",
+      "path": "packs/spells-fate.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Forces",
+      "type": "Item",
+      "name": "spells-forces",
+      "path": "packs/spells-forces.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Life",
+      "type": "Item",
+      "name": "spells-life",
+      "path": "packs/spells-life.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Matter",
+      "type": "Item",
+      "name": "spells-matter",
+      "path": "packs/spells-matter.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Mind",
+      "type": "Item",
+      "name": "spells-mind",
+      "path": "packs/spells-mind.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Prime",
+      "type": "Item",
+      "name": "spells-prime",
+      "path": "packs/spells-prime.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Space",
+      "type": "Item",
+      "name": "spells-space",
+      "path": "packs/spells-space.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Spirit",
+      "type": "Item",
+      "name": "spells-spirit",
+      "path": "packs/spells-spirit.db",
+      "system": "mta",
+      "private": false,
+      "module": "cofd-compendium"
+    },
+    {
+      "label": "Spells, Time",
+      "type": "Item",
+      "name": "spells-time",
+      "path": "packs/spells-time.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false
+    },
+    {
+      "label": "Vampire Powers",
+      "type": "Item",
+      "name": "vampire-powers",
+      "path": "packs/vampire-powers.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false
+    },
+    {
+      "label": "Vampire Banes",
+      "type": "Item",
+      "name": "vampire-banes",
+      "path": "packs/vampire-banes.db",
+      "system": "mta",
+      "module": "cofd-compendium",
+      "private": false
+    }
+  ]
+}

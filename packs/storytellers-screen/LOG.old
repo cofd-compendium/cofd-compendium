@@ -1,0 +1,8 @@
+2023/07/19-08:42:27.733 bbc Recovering log #8
+2023/07/19-08:42:27.978 bbc Delete type=0 #8
+2023/07/19-08:42:27.979 bbc Delete type=3 #6
+2023/07/19-08:55:06.027 900 Level-0 table #13: started
+2023/07/19-08:55:06.028 900 Level-0 table #13: 0 bytes OK
+2023/07/19-08:55:06.085 900 Delete type=0 #11
+2023/07/19-08:55:06.177 900 Manual compaction at level-0 from '!macros!PFrqvs8DEvkBcMLu' @ 72057594037927935 : 1 .. '!macros!PFrqvs8DEvkBcMLu' @ 0 : 0; will stop at (end)
+2023/07/19-08:55:06.177 900 Manual compaction at level-1 from '!macros!PFrqvs8DEvkBcMLu' @ 72057594037927935 : 1 .. '!macros!PFrqvs8DEvkBcMLu' @ 0 : 0; will stop at (end)

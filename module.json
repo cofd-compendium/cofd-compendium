@@ -1,18 +1,13 @@
 {
   "id": "cofd-compendium",
-  "name": "cofd-compendium",
   "title": "CofD Compendium",
   "description": "A compendium of information for Chronicles of Darkness.",
-  "version": "3.0.0",
-  "minimumCoreVersion": "11",
-  "compatibleCoreVersion": "11",
-  "systems": ["mta"],
+  "version": "3.0.1",
   "manifest": "https://github.com/cofd-compendium/cofd-compendium/releases/latest/download/module.json",
   "url": "https://github.com/cofd-compendium/cofd-compendium",
   "download": "https://github.com/cofd-compendium/cofd-compendium/releases/latest/download/cofd-compendium.zip",
   "readme": "https://github.com/cofd-compendium/cofd-compendium/blob/main/readme.md",
   "changelog": "https://github.com/cofd-compendium/cofd-compendium/releases",
-  "author": "CofD",
   "authors": [
     {
       "name": "CofD"
@@ -87,325 +82,437 @@
         "merits-demon"
       ],
       "folders": []
+    },
+    {
+      "name": "Hunter: The Vigil",
+      "packs": [
+        "hunter-castigation-rites",
+        "hunter-advanced-armory",
+        "hunter-tactics"
+      ],
+      "folders": []
     }
   ],
   "packs": [
     {
-      "label": "Tilts & Conditions",
-      "type": "Item",
       "name": "tilts-and-conditions",
-      "path": "packs/tilts-and-conditions.db",
+      "label": "Tilts & Conditions",
+      "path": "packs/tilts-and-conditions",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "entity": "Item",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Basic Rules",
-      "type": "JournalEntry",
       "name": "basic-rules",
-      "path": "packs/basic-rules.db",
+      "label": "Basic Rules",
+      "path": "packs/basic-rules",
+      "type": "JournalEntry",
       "system": "mta",
-      "module": "cofd-compendium",
-      "entity": "JournalEntry",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Character Creation Guides",
-      "type": "JournalEntry",
       "name": "character-creation-guides",
-      "path": "packs/character-creation-guides.db",
-      "system": "mta",
-      "module": "cofd-compendium",
-      "entity": "JournalEntry",
-      "private": false
-    },
-    {
-      "label": "ST References",
+      "label": "Character Creation Guides",
+      "path": "packs/character-creation-guides",
       "type": "JournalEntry",
+      "system": "mta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "st-references",
-      "path": "packs/st-references.db",
+      "label": "ST References",
+      "path": "packs/st-references",
+      "type": "JournalEntry",
       "system": "mta",
-      "module": "cofd-compendium",
-      "entity": "JournalEntry",
-      "private": true
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Vampire Disciplines",
-      "type": "Item",
       "name": "vampire-disciplines",
-      "path": "packs/vampire-disciplines.db",
+      "label": "Vampire Disciplines",
+      "path": "packs/vampire-disciplines",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "entity": "Item",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Supernatural",
-      "type": "Item",
       "name": "merits-supernatural",
-      "path": "packs/merits-supernatural.db",
+      "label": "Merits, Supernatural",
+      "path": "packs/merits-supernatural",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Mage",
-      "type": "Item",
       "name": "merits-mage",
-      "path": "packs/merits-mage.db",
+      "label": "Merits, Mage",
+      "path": "packs/merits-mage",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Homebrew",
-      "type": "Item",
       "name": "merits-homebrew",
-      "path": "packs/merits-homebrew.db",
+      "label": "Merits, Homebrew",
+      "path": "packs/merits-homebrew",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Demon",
-      "type": "Item",
       "name": "merits-demon",
-      "path": "packs/merits-demon.db",
+      "label": "Merits, Demon",
+      "path": "packs/merits-demon",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Changeling",
-      "type": "Item",
       "name": "merits-changeling",
-      "path": "packs/merits-changeling.db",
+      "label": "Merits, Changeling",
+      "path": "packs/merits-changeling",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Vampire",
-      "type": "Item",
       "name": "merits-vampire",
-      "path": "packs/merits-vampire.db",
+      "label": "Merits, Vampire",
+      "path": "packs/merits-vampire",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Ghoul",
-      "type": "Item",
       "name": "merits-ghoul",
-      "path": "packs/merits-ghoul.db",
+      "label": "Merits, Ghoul",
+      "path": "packs/merits-ghoul",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Werewolf",
-      "type": "Item",
       "name": "merits-werewolf",
-      "path": "packs/merits-werewolf.db",
+      "label": "Merits, Werewolf",
+      "path": "packs/merits-werewolf",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Merits, Universal",
-      "type": "Item",
       "name": "merits-universal",
-      "path": "packs/merits-universal.db",
+      "label": "Merits, Universal",
+      "path": "packs/merits-universal",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Storyteller's Screen",
-      "type": "Macro",
       "name": "storytellers-screen",
-      "path": "packs/storytellers-screen.db",
+      "label": "Storyteller's Screen",
+      "path": "packs/storytellers-screen",
+      "type": "Macro",
       "system": "mta",
-      "module": "cofd-compendium",
-      "entity": "Macro",
-      "private": true
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Combat, Armour",
-      "type": "Item",
       "name": "combat-armour",
-      "path": "packs/combat-armour.db",
+      "label": "Combat, Armour",
+      "path": "packs/combat-armour",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Combat, Melee Weapons",
-      "type": "Item",
       "name": "combat-melee-weapons",
-      "path": "packs/combat-melee-weapons.db",
+      "label": "Combat, Melee Weapons",
+      "path": "packs/combat-melee-weapons",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Combat, Ranged Weapons",
-      "type": "Item",
       "name": "combat-ranged-weapons",
-      "path": "packs/combat-ranged-weapons.db",
+      "label": "Combat, Ranged Weapons",
+      "path": "packs/combat-ranged-weapons",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Mysteries of the Dragon",
-      "type": "Item",
       "name": "mysteries-of-the-dragon",
-      "path": "packs/mysteries-of-the-dragon.db",
+      "label": "Mysteries of the Dragon",
+      "path": "packs/mysteries-of-the-dragon",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Werewolf Rites",
-      "type": "Item",
       "name": "werewolf-rites",
-      "path": "packs/werewolf-rites.db",
+      "label": "Werewolf Rites",
+      "path": "packs/werewolf-rites",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Werewolf Gifts",
-      "type": "Item",
       "name": "werewolf-gifts",
-      "path": "packs/werewolf-gifts.db",
+      "label": "Werewolf Gifts",
+      "path": "packs/werewolf-gifts",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false,
-      "entity": "Item"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Death",
-      "type": "Item",
       "name": "spells-death",
-      "path": "packs/spells-death.db",
+      "label": "Spells, Death",
+      "path": "packs/spells-death",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Fate",
-      "type": "Item",
       "name": "spells-fate",
-      "path": "packs/spells-fate.db",
+      "label": "Spells, Fate",
+      "path": "packs/spells-fate",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Forces",
-      "type": "Item",
       "name": "spells-forces",
-      "path": "packs/spells-forces.db",
+      "label": "Spells, Forces",
+      "path": "packs/spells-forces",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Life",
-      "type": "Item",
       "name": "spells-life",
-      "path": "packs/spells-life.db",
+      "label": "Spells, Life",
+      "path": "packs/spells-life",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Matter",
-      "type": "Item",
       "name": "spells-matter",
-      "path": "packs/spells-matter.db",
+      "label": "Spells, Matter",
+      "path": "packs/spells-matter",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Mind",
-      "type": "Item",
       "name": "spells-mind",
-      "path": "packs/spells-mind.db",
+      "label": "Spells, Mind",
+      "path": "packs/spells-mind",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Prime",
-      "type": "Item",
       "name": "spells-prime",
-      "path": "packs/spells-prime.db",
+      "label": "Spells, Prime",
+      "path": "packs/spells-prime",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Space",
-      "type": "Item",
       "name": "spells-space",
-      "path": "packs/spells-space.db",
+      "label": "Spells, Space",
+      "path": "packs/spells-space",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Spirit",
-      "type": "Item",
       "name": "spells-spirit",
-      "path": "packs/spells-spirit.db",
+      "label": "Spells, Spirit",
+      "path": "packs/spells-spirit",
+      "type": "Item",
       "system": "mta",
-      "private": false,
-      "module": "cofd-compendium"
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Spells, Time",
-      "type": "Item",
       "name": "spells-time",
-      "path": "packs/spells-time.db",
+      "label": "Spells, Time",
+      "path": "packs/spells-time",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Vampire Powers",
-      "type": "Item",
       "name": "vampire-powers",
-      "path": "packs/vampire-powers.db",
+      "label": "Vampire Powers",
+      "path": "packs/vampire-powers",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     },
     {
-      "label": "Vampire Banes",
-      "type": "Item",
       "name": "vampire-banes",
-      "path": "packs/vampire-banes.db",
+      "label": "Vampire Banes",
+      "path": "packs/vampire-banes",
+      "type": "Item",
       "system": "mta",
-      "module": "cofd-compendium",
-      "private": false
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "hunter-tactics",
+      "label": "Hunter Tactics",
+      "path": "packs/hunter-tactics",
+      "type": "Item",
+      "system": "mta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "hunter-advanced-armory",
+      "label": "Hunter Advanced Armory",
+      "path": "packs/hunter-advanced-armory",
+      "type": "Item",
+      "system": "mta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "hunter-castigation-rites",
+      "label": "Hunter Castigation Rites",
+      "path": "packs/hunter-castigation-rites",
+      "type": "Item",
+      "system": "mta",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "hunter-virtuous-rituals",
+      "label": "Hunter Virtuous Rituals",
+      "path": "packs/hunter-virtuous-rituals",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "mta"
     }
-  ]
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "mta",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  }
 }

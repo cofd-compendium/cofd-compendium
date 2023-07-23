@@ -1,8 +1,15 @@
-2023/07/23-10:48:30.398 16d8 Recovering log #56
-2023/07/23-10:48:30.610 16d8 Delete type=0 #56
-2023/07/23-10:48:30.610 16d8 Delete type=3 #54
-2023/07/23-11:34:46.111 35f8 Level-0 table #62: started
-2023/07/23-11:34:46.111 35f8 Level-0 table #62: 0 bytes OK
-2023/07/23-11:34:46.168 35f8 Delete type=0 #60
-2023/07/23-11:34:46.211 35f8 Manual compaction at level-0 from '!journal!1rnvV0sIOilhyrB2' @ 72057594037927935 : 1 .. '!journal.pages!wluEQbaEmQGZ9XlX.fmLcLqYwXnhki3im' @ 0 : 0; will stop at (end)
-2023/07/23-11:34:46.260 35f8 Manual compaction at level-1 from '!journal!1rnvV0sIOilhyrB2' @ 72057594037927935 : 1 .. '!journal.pages!wluEQbaEmQGZ9XlX.fmLcLqYwXnhki3im' @ 0 : 0; will stop at (end)
+2023/07/23-11:36:14.292 16d8 Recovering log #61
+2023/07/23-11:36:14.526 16d8 Delete type=0 #61
+2023/07/23-11:36:14.526 16d8 Delete type=3 #59
+2023/07/23-12:48:34.901 35f8 Level-0 table #66: started
+2023/07/23-12:48:34.954 35f8 Level-0 table #66: 90377 bytes OK
+2023/07/23-12:48:35.001 35f8 Delete type=0 #64
+2023/07/23-12:48:35.142 35f8 Manual compaction at level-0 from '!folders!RhaqiR3XqXbcmt0F' @ 72057594037927935 : 1 .. '!journal.pages!wluEQbaEmQGZ9XlX.fmLcLqYwXnhki3im' @ 0 : 0; will stop at (end)
+2023/07/23-12:48:35.142 35f8 Manual compaction at level-1 from '!folders!RhaqiR3XqXbcmt0F' @ 72057594037927935 : 1 .. '!journal.pages!wluEQbaEmQGZ9XlX.fmLcLqYwXnhki3im' @ 0 : 0; will stop at '!journal.pages!ucEqjnGs7bdnhNsm.oezmrdn6niWCkZ5G' @ 465 : 1
+2023/07/23-12:48:35.167 35f8 Compacting 1@1 + 1@2 files
+2023/07/23-12:48:35.253 35f8 Generated table #67@1: 165 keys, 1622327 bytes
+2023/07/23-12:48:35.253 35f8 Compacted 1@1 + 1@2 files => 1622327 bytes
+2023/07/23-12:48:35.301 35f8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/23-12:48:35.301 35f8 Delete type=2 #58
+2023/07/23-12:48:35.301 35f8 Delete type=2 #66
+2023/07/23-12:48:35.392 35f8 Manual compaction at level-1 from '!journal.pages!ucEqjnGs7bdnhNsm.oezmrdn6niWCkZ5G' @ 465 : 1 .. '!journal.pages!wluEQbaEmQGZ9XlX.fmLcLqYwXnhki3im' @ 0 : 0; will stop at (end)
